@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inserindo mídias no HTML5</title>
+</head>
+
+<body>
+    <h1>Incorporando mídias no site</h1>
+
+    <h2>Imagens:</h2>
+    <img src=".\midias\imagem.jpg" alt="Foto de Paisagem" width="300px" height="300px">
+
+    <h2>Imagens com legenda:</h2>
+    <figure>
+        <img src=".\midias\grafico.png" alt="Gráfico de crescimento anual da empresa" width="300px">
+    </figure>
+
+    <h2>Áudio:</h2>
+    <audio controls>
+        <source src="./midias/audio.mp3" type="audio/mpeg">
+        Não foi possível reporduzir o áudio.
+    </audio>
+
+    <h2>Vídeo</h2>
+    <video src="./midias/video.mp4" type="video/mp4">
+        Não foi possível reproduzir o vídeo
+    </video>
+
+    <h2>Vídeo incorporado do Youtube:</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/MWSR17vEVBw?si=c9vt-5Zv8R3opqsM"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <h2>Mapas:</h2>
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.5569423376473!2d-46.668403423760374!3d-23.54843276111914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5825e5ce392b%3A0xa1bf631ab482f725!2sMercado%20Livre%20Arena%20Pacaembu!5e0!3m2!1spt-BR!2sbr!4v1788217464368!5m2!1spt-BR!2sbr"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="strict-origin-when-cross-origin"></iframe>
+
+    <h2>Incorporando PDFs:</h2>
+    <iframe 
+    src="./midias/documento.pdf"
+    title="Horários do DSM-1"
+    width="600px"    
+    height="450px"
+    >
+    </iframe>
+</body>
+
+</html>
