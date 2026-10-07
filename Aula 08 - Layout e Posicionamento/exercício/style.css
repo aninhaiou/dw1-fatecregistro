@@ -11,6 +11,22 @@ h1 {
 #sobre-mim {
     font-size: 20px;
     color: white;
-    padding: 15px;
+    padding: 50px;
     border-top: 3px solid #e42e47;
+}
+#sobre-mim2 {
+    font-size: 15px;
+    color: white;
+    font-family: sans-serif;
+    padding: 15px;
+}
+.lista {
+    font-size: 15px;
+    color: white;
+    font-family: sans-serif;
+}
+li {
+    font-size: 15px;
+    color: white;
+    font-family: sans-serif
 }
