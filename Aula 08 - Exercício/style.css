@@ -1,0 +1,72 @@
+body {
+    background-color: #f7f4fc;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    color: #333333;
+}
+header {
+    background-color: #5b3b91;
+    text-align: center;
+    padding: 30px;
+}
+h1 {
+    color: white;
+    font-size: 32px;
+}
+main {
+    width: 80%;
+    margin: 30px auto;
+}
+section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+}
+#sobre-mim {
+    color: #5b3b91;
+}
+
+.lista {
+    background-color: #f0e9fc;
+    padding: 25px;
+}
+
+li {
+    margin: 10px;
+}
+
+.habilidades {
+    border: 1px solid #cbb8e8;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 8px;
+}
+
+.habilidades h4 {
+    color: #7046a5;
+}
+
+.habilidades p {
+    font-family: sans-serif;
+}
+.habilidades:hover {
+    background-color: #f3edfc;
+}
+
+input[type="email"] {
+    padding: 10px;
+    border: 1px solid #a18ac4;
+    border-radius: 5px;
+}
+
+a[href] {
+    color: #7046a5;
+}
+
+footer {
+    background-color: #382454;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
