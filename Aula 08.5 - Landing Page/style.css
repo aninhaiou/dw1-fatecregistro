@@ -1,20 +1,22 @@
 * {
-    margin: 0;
-    padding: 0;
-    /* alterando o tamanho final dos elementos para contar a partir da borda */
+    margin: 0px;
+    padding: 0px;
+    /* Alterar o tamanho final dos elementos para contar a partir da borda */
     box-sizing: border-box;
 }
-
+ 
 body {
     font-family: "Segoe UI";
     line-height: 1.6;
     color: #333;
 }
+ 
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
 }
+ 
 .header {
     background-color: #2c1810;
     color: white;
@@ -24,33 +26,36 @@ body {
     z-index: 100;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
+ 
 .nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+ 
 .logo {
     font-size: 1.5rem;
     font-weight: bold;
 }
+ 
 .menu {
     display: flex;
-    /* espaçamento entre os elementos da flexbox */
+    /* Espaçamento entre os elementos da flexbox */
     gap: 2rem;
 }
+ 
 .menu a {
     color: white;
-    /* remove o sublinhado dos links */
     text-decoration: none;
     transition: color 0.5s;
 }
-.menu a:hover{
+ 
+.menu a:hover {
     color: #d4a574;
 }
-/* HERO SECTION */
-.hero{
-    background: linear-gradient(rgba(44,24,26,0.7), rgba(44,24,16,0.3)), url("https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=1200&h=600&fit=crop");
-    /* a imagem cobre todo o espaço disponível */
+ 
+.hero {
+    background: linear-gradient(rgba(44, 24, 26, 0.7), rgba(44, 24, 16, 0.3)), url("https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=1200&h=600&fit=crop");
     background-size: cover;
     background-position: center;
     height: 500px;
@@ -60,14 +65,17 @@ body {
     text-align: center;
     color: white;
 }
+ 
 .hero-content h1 {
     font-size: 3rem;
     margin-bottom: 1rem;
 }
+ 
 .hero-content p {
     font-size: 1.3rem;
     margin-bottom: 2rem;
 }
+ 
 .btn-primary {
     background-color: #d4a574;
     color: white;
@@ -75,65 +83,70 @@ body {
     border: none;
     border-radius: 5px;
     font-size: 1.1rem;
-    cursor: pointer;
-    transition: background-color 0.5s;
+    transition: 0.5s;
 }
+ 
 .btn-primary:hover {
     background-color: #a78453;
 }
-/* SEÇÃO DE CARDS COM OS PRODUTOS */
+ 
 .produtos {
     padding: 4rem 0;
     background-color: #f9f9f9;
 }
+ 
 .section-title {
     text-align: center;
     font-size: 2.5rem;
     margin-bottom: 3rem;
     color: #2c1810;
 }
+ 
 .cards {
     display: flex;
     justify-content: center;
     gap: 2rem;
     flex-wrap: wrap;
 }
-.card {
-    background: white;
+ 
+.cars {
+    background-color: white;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s;
     flex: 1;
     min-width: 280px;
-    max-width: 350px;
+    min-width: 350px;
 }
+ 
 .card:hover {
     transform: translateY(-8px);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
+ 
 .card img {
     width: 100%;
     height: 200px;
     object-fit: cover;
 }
+ 
 .card-content {
     padding: 1.5rem;
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
 }
+ 
 .card-content h3 {
     color: #2c1810;
     font-size: 1.5rem;
 }
-.card-content h3 {
-    color: #2c1810;
-    font-size: 1.5rem;
-}
+ 
 .card-content p {
     color: #666;
 }
+ 
 .price {
     font-size: 1.5rem;
     color: #d4a574;
@@ -141,47 +154,48 @@ body {
 }
  
 /* Seção sobre */
-.sobre {
-    padding: 4rem;
+.sobre{
+   padding: 4rem 0 ;
 }
-.sobre-flex {
-    display: flex;
-    gap: 3rem;
-    align-items: center;
+.sobre-flex{
+   display: flex;
+   gap: 3rem;
+   align-items: center;
 }
-.sobre-imagem {
+.sobre-imagem{
    flex: 1;
 }
-.sobre-imagem img {
-    width: 100%;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.sobre-imagem img{
+   width: 100%;
+   border-radius: 10px;
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
-.sobre-texto {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
+.sobre-texto{
+   flex: 1;
+   display: flex;
+   flex-direction: column;
+   gap: 1rem;
 }
-.sobre-texto h2 {
-    font-size: 2.5rem;
-    color: #2c1810;
+.sobre-texto h2{
+   font-size: 2.5rem;
+   color: #2c1810;
 }
-.sobre-texto p {
-    color: #666;
-    font-size: 1.1rem;
+.sobre-texto p{
+   color: #666;
+   font-size: 1.1rem;
 }
-.benefícios {
-    list-style: none;
-    margin-top: 1rem;
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
+.beneficios {
+   list-style: none;
+   margin-top: 1rem;
+   display: flex;
+   flex-direction: column;
+   gap: 0.5rem;
 }
-.benefícios li {
-    color: #2c1810;
-    font-size: 1.1rem;
+.beneficios li{
+   color: #2c1810;
+   font-size: 1.1rem;
 }
+/* footer */
 /* FOOTER */
 .footer {
     background-color: #2c1810;
@@ -211,4 +225,39 @@ body {
 .footer-section a {
     text-decoration: none;
     color: white;
+}
+/* RESPONSIVIDADE */
+/* Mobile (largura ate 768px) */
+ 
+@media (max-width: 768px ) {
+    .logo {
+        font-size: 1rem;
+    }
+    .menu {
+        gap: 0.75rem;
+    }
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+    .hero-content p {
+        font-size: 1rem;
+    }
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+    .sobre-flex {
+        flex-direction: column;
+    }
+    .footer-content {
+        flex-direction: column;
+    }
+ 
+    /* TABLET (LArgura de 769px ate 1024px) */
+ 
+    @media (min-width: 769px) and (max-width: 1024px) {
+        /* Aqui ira os estilos para Tablet */
+       
+    }
+ 
 }

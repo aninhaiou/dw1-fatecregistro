@@ -1,116 +1,114 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html lang="pt-BR">
+ 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Café Aroma - Os Melhores Cafés Especiais</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+ 
+  <title>Café Aroma - Os Melhores Cafés Especiais</title>
 </head>
-
+ 
 <body>
-    <!-- header -->
-    <header class="header">
-        <!-- container com flexbox -->
-        <div class="container">
-            <!-- container do menu -->
-            <div class="nav">
-                <!-- logo -->
-                <div class="logo">Café Aroma</div>
-                <!-- menu -->
-                <nav class="menu">
-                    <a href="#home">Início</a>
-                    <a href="#produtos">Produtos</a>
-                    <a href="#sobre">Sobre</a>
-                    <a href="#contato">Contato</a>
-                </nav>
-            </div>
+  <!-- Header -->
+  <header class="header">
+    <!-- conteiner PAI com flexbox -->
+    <div class="container">
+      <!-- conteiner Do menu com flexbox -->
+      <div class="nav">
+        <!-- logo -->
+        <div class="logo">Café Aroma</div>
+        <!-- Menu -->
+        <nav class="menu">
+          <a href="#home">Início</a>
+          <a href="#produtos">Produtos</a>
+          <a href="#sobre">Sobre</a>
+          <a href="#contato">Contato</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+ 
+  <!-- Hero section -->
+  <section class="hero"  id="home">
+    <div class="hero-content">
+      <h1>Desperte Seus Sentimentos</h1>
+      <p>Cafés especiais selecionados para você começar o dia com energia e abor</p>
+      <!-- Botão Call Action -->
+      <button class="btn-primary">Conheça Nossos Cafés </button>
+    </div>
+  </section>
+  <!-- SEÇÃO PRODUTOS -->
+  <section class="produtos" id="produtos">
+    <div class="container">
+      <h2 class="section-title">Nossos Cafés</h2>
+      <div class="cards">
+        <!-- Card 1 -->
+        <div class="card">
+          <!-- imagem do produto -->
+          <img src="https://images.unsplash.com/photo-1559056199-641a0ac8b55e?w=400&h=300&fit=crop" alt="Café Expresso">
+          <!-- Texto do produto -->
+          <div class="card-content">
+            <h3>Expresso Intenso</h3>
+            <p>Sabor marcante e encorpado, perfeito para quem aprecia café forte</p>
+            <span class="price">R$ 18,90</span>
+          </div>
         </div>
-    </header>
-    <!-- HERO SECTION -->
-    <section class="hero">
-        <div class="hero-content">
-            <h1>Desperte Seus Sentidos</h1>
-            <p>Cafés especiais selecionados para você começar o dia com energia e sabor.</p>
+        <!-- Card 2 -->
+        <div class="card">
+          <!-- imagem do produto -->
+          <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?w=400&h=300&fit=crop"
+            alt="Café Cappuccino">
+          <!-- Texto do produto -->
+          <div class="card-content">
+            <h3>Cappuccino Cremeso</h3>
+            <p>Combinação perfeita de café, lete vaporizado e espuma aveludada </p>
+            <span class="price">R$ 15,90</span>
+          </div>
         </div>
-    </section>
-    <!-- SEÇÃO PRODUTOS -->
-    <section class="produtos" id="produtos">
-        <div class="container">
-            <h2 class="section-title">Nossos Cafés</h2>
-            <div class="cards">
-                <!-- Card 1 -->
-                <div class="card">
-                    <!-- imagem do produto -->
-                    <img src="https://images.unsplash.com/photo-1559056199-641a0ac8b55e?w=400&h=300&fit=crop"
-                        alt="Café Expresso">
-                    <!-- Texto do produto -->
-                    <div class="card-content">
-                        <h3>Expresso Intenso</h3>
-                        <p>
-                            Sabor marcante e encorpado, perfeito para quem aprecia café forte
-                        </p>
-                        <span class="price">R$ 18,90</span>
-                    </div>
-                </div>
-                <!-- Card 2 -->
-                <div class="card">
-                    <!-- imagem do produto -->
-                    <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?w=400&h=300&fit=crop"
-                        alt="Café Capuccino">
-                    <!-- Texto do produto -->
-                    <div class="card-content">
-                        <h3>Capuccino Cremoso</h3>
-                        <p>
-                            Combinação perfeita de café, leite vaporizado e espuma aveludada
-                        </p>
-                        <span class="price">R$ 15,90</span>
-                    </div>
-                </div>
-                <!-- Card 3 -->
-                <div class="card">
-                    <!-- imagem do produto -->
-                    <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=400&h=300&fit=crop"
-                        alt="Café Latte">
-                    <!-- Texto do produto -->
-                    <div class="card-content">
-                        <h3>Latte Suave</h3>
-                        <p>
-                            Café suave com muito leite, ideal para momentos relaxantes
-                        </p>
-                        <span class="price">R$ 14,90</span>
-                    </div>
-                </div>
-            </div>
+        <!-- Card 3 -->
+        <div class="card">
+          <!-- imagem do produto -->
+          <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=400&h=300&fit=crop" alt="Café Latte">
+          <!-- Texto do produto -->
+          <div class="card-content">
+            <h3>Latte Suave</h3>
+            <p>Café suave com muito leite, ideal para momentos relaxantes</p>
+            <span class="price">R$ 14,90</span>
+          </div>
         </div>
-    </section>
-    <!-- Seção Sobre  -->
-    <section class="sobre" id="sobre">
-        <div class="container">
-            <div class="sobre-flex">
-                <div class="sobre-imagem">
-                    <img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=600&h=400&fit=crop"
-                        alt="Sobre a empresa">
-                </div>
-                <!-- Texto -->
-                <div class="sobre-texto">
-                    <h2>Paixão por Café</h2>
-                    <p>Há mais de 10 anos, o Café Aroma seleciona os melhores grãos de cafeterias artesanais do Brasil e
-                        do mundo.</p>
-                    <p>Nossa missão é proporcionar experiências únicas através de cafés especiais, preparamos com
-                        técnica e carinho.</p>
-                    <ul class="benefícios">
-                        <li>✓ Grãos 100% arábica</li>
-                        <li>✓ Torra artesanal</li>
-                        <li>✓ Origem rastreável</li>
-                        <li>✓ Comércio justo</li>
-                    </ul>
-                </div>
-            </div>
+      </div>
+    </div>
+  </section>
+  <!-- Seção Sobre  -->
+  <section class="sobre" id="sobre">
+    <div class="container">
+      <div class="sobre-flex">
+        <div class="sobre-imagem">
+          <img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=600&h=400&fit=crop"
+            alt="Sobre a empresa">
         </div>
-    </section>
-    <!-- FOOTER (informações de contato da empresa) -->
-     <footer class="footer">
+        <div class="sobre-texto">
+          <h2>Paixão por Café</h2>
+          <p> há mais de 10 anos, o Café Aroma seleciona os melhores grãos de cafeterias artesanais do Brasil e do
+            mundo.</p>
+          <p>Nossa missão é proporcionar experiéncias únicas através de cafés especiais, preparados com técnica e
+            carinho.</p>
+ 
+          <ul class="beneficios">
+            <li>✓ Grão 100% arábica</li>
+            <li>✓ Torra artresanal</li>
+            <li>✓ Origem rastreável</li>
+            <li>✓ Comércio justo</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- Footer (informações de contato da empresa) -->
+ 
+     <footer class="footer" id="contato" >
         <div class="container">
             <div class="footer-content">
                 <!-- Empresa -->
@@ -139,9 +137,4 @@
              </div>
         </div>
      </footer>
-</body>
-
-</html>
-</body>
-
-</html>
+</html>     
